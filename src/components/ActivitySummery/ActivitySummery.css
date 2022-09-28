@@ -1,0 +1,9 @@
+.btn-break{
+   border: 1px solid rgb(9, 231, 76);
+   border-radius: 5px;
+   background: rgba(0, 0, 0, 0);
+}
+
+.btn-break:hover{
+   border: 1px solid rgb(211, 183, 23);
+}

@@ -1,7 +1,14 @@
-import React from 'react';
-import "./ActivitySummery.css"
+import React, { useState } from 'react';
+import "./ActivitySummery.css";
 
-const ActivitySummery = () => {
+const ActivitySummery = (props) => {
+   const { activityDuration } = props;
+   const [breaktime, setBreakTime] = useState(0);
+   const addBreakTime = (value) => {
+      setBreakTime(value)
+   }
+
+
    return (
       <div>
          <div className="user-details text-start">
@@ -11,50 +18,57 @@ const ActivitySummery = () => {
                </div>
 
                <div className="text">
-                  <h5 className="m-0">Rajib Sarker</h5>
+                  <h4 className="m-0">Rajib Sarker</h4>
+                  <h6>Web Developer</h6>
                   <p className="m-0">Dhaka, Bangladesh</p>
-               </div>
-            </div>
-
-
-            <div className="card p-2 shadow text-center">
-               <div className="row">
-                  <div className="col-4">
-                     <p className="m-0">Weight</p>
-                     <h6 className="m-0">64kg</h6>
-                  </div>
-                  <div className="col-4">
-                     <p className="m-0">Height</p>
-                     <h6 className="m-0">5.7</h6>
-                  </div>
-                  <div className="col-4">
-                     <p className="m-0">Age</p>
-                     <h6 className="m-0">29 <small>Yrs</small></h6>
-                  </div>
                </div>
             </div>
          </div>
 
-         <div className="break mt-4 p-2 rounded text-start border shadow">
-            <h4>Add a Break</h4>
-            <div className="buttons d-flex justify-content-between">
-               <button>10m</button>
-               <button>20m</button>
-               <button>30m</button>
-               <button>40m</button>
-               <button>50m</button>
+         <div className="row">
+            <div className="col-md-6 col-xl-12">
+               <div className="h-100 card p-2 shadow text-center">
+                  <div className="row align-items-center">
+                     <div className="col-4">
+                        <p className="m-0">Weight</p>
+                        <h6 className="m-0">64kg</h6>
+                     </div>
+                     <div className="col-4">
+                        <p className="m-0">Height</p>
+                        <h6 className="m-0">5.7</h6>
+                     </div>
+                     <div className="col-4">
+                        <p className="m-0">Age</p>
+                        <h6 className="m-0">29 <small>Yrs</small></h6>
+                     </div>
+                  </div>
+               </div>
             </div>
+
+            <div className="col-md-6 col-xl-12">
+               <div className="break p-2 mt-4 mt-md-0 mt-xl-4 mt rounded text-start border shadow">
+                  <h4>Add a Break</h4>
+                  <div className="buttons d-flex justify-content-between">
+                     <button className="btn-break" onClick={() => addBreakTime(10)}>10m</button>
+                     <button className="btn-break" onClick={() => addBreakTime(20)}>20m</button>
+                     <button className="btn-break" onClick={() => addBreakTime(30)}>30m</button>
+                     <button className="btn-break" onClick={() => addBreakTime(40)}>40m</button>
+                     <button className="btn-break" onClick={() => addBreakTime(50)}>50m</button>
+                  </div>
+               </div>
+            </div>
+
          </div>
 
          <div className="exercise mt-4 p-2 rounded text-start border shadow">
             <h4 className="pb-2">Exercise Details</h4>
             <div className="d-flex border rounded justify-content-between p-2 my-2">
                <h6 className="m-0">Exercise time</h6>
-               <p className="m-0"><span>200</span> Seconds</p>
+               <p className="m-0"><span>{activityDuration}</span> Minutes</p>
             </div>
             <div className="d-flex border rounded justify-content-between p-2 my-2">
                <h6 className="m-0">Break time</h6>
-               <p className="m-0"><span>200</span> Seconds</p>
+               <p className="m-0"><span>{breaktime}</span> Minutes</p>
             </div>
          </div>
 
