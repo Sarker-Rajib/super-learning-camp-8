@@ -5,7 +5,7 @@ const ActivitySingle = (props) => {
    const { addActivity } = props;
 
    return (
-      <div className="col-md-6 col-xl-4 p-2">
+      <div className="col-md-6 col-xl-4 px-2">
          <div className="card p-2">
             <img src={img} className="img-fluid rounded" alt={title} />
             <h3 className="pt-1">{title}</h3>
