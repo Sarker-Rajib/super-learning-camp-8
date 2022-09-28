@@ -1,25 +1,25 @@
 [
   {
-    "id": "7",
-    "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/7.png",
-    "title": "Learning CSS",
-    "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur",
-    "duration":"20",
-    "time":"morning"
-  },
-  {
     "id": "8",
     "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/8.png",
     "title": "Learning Html",
-    "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur",
+    "details": "Temporibus aliquam ullam. Id voluptatum provident harum eligendi dolor neque.",
     "duration":"15",
+    "time":"morning"
+  },
+  {
+    "id": "4",
+    "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/4.png",
+    "title": "Reading Story",
+    "details": "Odit qui, ullam reprehenderit perferendis possimus a velit dolorum aliquid.",
+    "duration":"40",
     "time":"morning"
   },
   {
     "id": "9",
     "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/9.png",
     "title": "C programming",
-    "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur",
+    "details": "Facilis quam iure nostrum vitae aspernatur reiciendis hic, est, officia mole.",
     "duration":"35",
     "time":"morning"
   },
@@ -27,7 +27,7 @@
     "id": "1",
     "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/1.png",
     "title": "Learning React",
-    "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur",
+    "details": "Stiae natus! Dolorem minus aliquam cum debitis totam error esse nihil tempore.",
     "duration":"50",
     "time":"morning"
   },
@@ -35,7 +35,7 @@
     "id": "2",
     "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/2.png",
     "title": "Learning Algorithm",
-    "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur",
+    "details": "Quaerat possimus quae aperiam suscipit iure, culpa et eius fuga! Odio, error.",
     "duration":"45",
     "time":"morning"
   },
@@ -43,23 +43,23 @@
     "id": "3",
     "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/3.png",
     "title": "Learning Pure Js",
-    "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur",
+    "details": "Non placeat delectus sint quia beatae ab libero alias, minima pariatur.",
     "duration":"30",
     "time":"morning"
   },
   {
-    "id": "4",
-    "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/4.png",
-    "title": "Reading Story",
-    "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur",
-    "duration":"40",
+    "id": "7",
+    "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/7.png",
+    "title": "Learning CSS",
+    "details": "Fugiat quod, voluptatum magni tenetur ullam animi atque voluptatibus laudantiu.",
+    "duration":"20",
     "time":"morning"
   },
   {
     "id": "5",
     "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/5.png",
     "title": "Learning Math",
-    "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur",
+    "details": "Quasi facilis ea quibusdam incidunt, voluptates, repellat inventore.",
     "duration":"50",
     "time":"morning"
   },
@@ -67,7 +67,7 @@
     "id": "6",
     "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/6.png",
     "title": "Problem Solving ",
-    "details": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto tenetur",
+    "details": "Vero ratione nihil officiis! e aspernatur reiciendi atque voluptatibu.",
     "duration":"55",
     "time":"morning"
   }

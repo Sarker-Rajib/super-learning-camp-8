@@ -61,14 +61,14 @@ const ActivitySummery = (props) => {
          </div>
 
          <div className="exercise mt-4 p-2 rounded text-start border shadow">
-            <h4 className="pb-2">Exercise Details</h4>
-            <div className="d-flex border rounded justify-content-between p-2 my-2">
-               <h6 className="m-0">Exercise time</h6>
-               <p className="m-0"><span>{activityDuration}</span> Minutes</p>
+            <h4 className="pb-2">Practice Details</h4>
+            <div className="d-flex border rounded bg-light justify-content-between p-2 my-2">
+               <h6 className="m-0">Practice time</h6>
+               <p className="m-0"><span className="text-primary"><strong>{activityDuration}</strong></span> Minutes</p>
             </div>
-            <div className="d-flex border rounded justify-content-between p-2 my-2">
+            <div className="d-flex border rounded bg-light justify-content-between p-2 my-2">
                <h6 className="m-0">Break time</h6>
-               <p className="m-0"><span>{breaktime}</span> Minutes</p>
+               <p className="m-0"><span className="text-danger"><strong>{breaktime}</strong></span> Minutes</p>
             </div>
          </div>
 

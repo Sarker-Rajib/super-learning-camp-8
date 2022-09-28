@@ -4,7 +4,6 @@ import ActivitySummery from '../ActivitySummery/ActivitySummery';
 
 const Activities = () => {
    const [activity, setActivity] = useState([]);
-
    const [activityDuration, setActivityDuration] = useState(0);
    
    const addActivity = (value) =>{
