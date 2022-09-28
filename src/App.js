@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Blog from './components/Blog/Blog';
 import Activities from './components/ActivityManager/Activities';
