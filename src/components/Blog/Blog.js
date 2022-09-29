@@ -5,10 +5,10 @@ const Blog = () => {
       <div className="blog py-4">
          <div className="container">
             <div className="row">
-               <div className="border shadow-lg rounded">
+               <div className="border border-info shadow-lg rounded">
                   <h1>Let's dive into Blog</h1>
                </div>
-               <div className="border bg-light shadow p-3 text-start rounded">
+               <div className="border border-info bg-light shadow p-3 text-start rounded">
                   <h5>Q. How does React Work ?</h5>
                   <p>ReactJS divides the UI into isolated reusable pieces of code known as components. React components work similarly to JavaScript functions as they accept arbitrary inputs called properties or props. It's possible to have as many components as necessary without cluttering your code.</p>
                   <br />

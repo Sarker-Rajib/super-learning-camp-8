@@ -2,25 +2,24 @@ import React, { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import "./ActivitySummery.css";
+import { addToDb, getStoredData } from '../../utility/utility';
 
 const ActivitySummery = (props) => {
    const { activityDuration } = props;
-   const [breaktime, setBreakTime] = useState(0);
+   const [breaktime, setBreakTime] = useState(getStoredData());
    const addBreakTime = (value) => {
       setBreakTime(value)
+      addToDb(value)
    }
 
    const toastMessage = () => {
       toast(`
       Congratulations, 
       You have completed Your Tasks
-      `,
-      {
+      `, {
          position: "top-center",
       })
-
    }
-
 
    return (
       <div>
