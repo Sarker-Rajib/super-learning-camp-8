@@ -27,7 +27,7 @@
     "id": "1",
     "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/1.png",
     "title": "Learning React",
-    "details": "Stiae natus! Dolorem minus aliquam cum debitis totam error esse nihil tempore.",
+    "details": "Stiae natus! Dolorem minus aliquam cum debitis totam error esse .",
     "duration":"50",
     "time":"morning"
   },
@@ -51,7 +51,7 @@
     "id": "7",
     "img": "https://raw.githubusercontent.com/Sarker-Rajib/image-ii/main/7.png",
     "title": "Learning CSS",
-    "details": "Fugiat quod, voluptatum magni tenetur ullam animi atque voluptatibus laudantiu.",
+    "details": "Fugiat quod, voluptatum magni tenetur ullam animi atque voluptatibus.",
     "duration":"20",
     "time":"morning"
   },

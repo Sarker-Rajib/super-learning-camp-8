@@ -21,8 +21,12 @@ const Activities = () => {
       <div>
          <div className="container pt-2">
             <div className="row">
-               <h2 className="py-3">Daily Super Learning Activity</h2>
-               <div className="col-xl-9">
+               <div className="text-start">
+               <h2 className="pt-3 fs-1 text-info">Daily Super Learning</h2>
+               <h4 className="pb-3">Select today's Learning</h4>
+               </div>
+
+               <div className="col-xl-9 ps-xl-0">
                   <div className="activity-wrapper row gy-3 text-start">
 
                      {

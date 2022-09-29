@@ -1,8 +1,9 @@
 import React from 'react';
+import './Blog.css'
 
 const Blog = () => {
    return (
-      <div className="blog py-4">
+      <div className="blog py-4 px-2 px-md-0">
          <div className="container">
             <div className="row">
                <div className="border border-info shadow-lg rounded">

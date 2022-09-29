@@ -1,9 +1,28 @@
+.btn-completed{
+   border: 5px solid #ffffff;
+   outline: 1px solid #09e74c;
+   border-radius: 5px;
+   background: #09e74c;
+   padding-block: 5px;
+   font-size: 24px;
+   color: rgb(28, 73, 99);
+}
+
+.btn-completed:hover{
+   outline: 1px solid #ffbb00;
+}
+
 .btn-break{
    border: 1px solid rgb(9, 231, 76);
    border-radius: 5px;
    background: rgba(0, 0, 0, 0);
+   font-size: 20px;
 }
 
 .btn-break:hover{
    border: 1px solid rgb(211, 183, 23);
+}
+
+h6{
+   font-size: 24px;
 }
