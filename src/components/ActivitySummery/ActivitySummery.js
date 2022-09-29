@@ -19,7 +19,7 @@ const ActivitySummery = (props) => {
    }
 
    return (
-      <div>
+      <div className="user-section-container">
          <div className="user-details text-start rounded pt-3">
             <div className="d-flex align-items-center p-2 shadow-lg border rounded bg-light">
                <div className="image pe-3 flex-shrink-0 ">
@@ -34,39 +34,32 @@ const ActivitySummery = (props) => {
             </div>
          </div>
 
-         <div className="row">
-            <div className="col-md-6 col-xl-12">
-               <div className="h-100 card p-2 shadow text-center">
-                  <div className="row align-items-center">
-                     <div className="col-4">
-                        <p className="m-0">Weight</p>
-                        <h6 className="m-0">64kg</h6>
-                     </div>
-                     <div className="col-4">
-                        <p className="m-0">Height</p>
-                        <h6 className="m-0">5.7</h6>
-                     </div>
-                     <div className="col-4">
-                        <p className="m-0">Age</p>
-                        <h6 className="m-0">29 <small>Yrs</small></h6>
-                     </div>
-                  </div>
+         <div className="card p-2 shadow text-center">
+            <div className="row align-items-center">
+               <div className="col-4">
+                  <p className="m-0">Weight</p>
+                  <h6 className="m-0">64kg</h6>
+               </div>
+               <div className="col-4">
+                  <p className="m-0">Height</p>
+                  <h6 className="m-0">5.7</h6>
+               </div>
+               <div className="col-4">
+                  <p className="m-0">Age</p>
+                  <h6 className="m-0">29 <small>Yrs</small></h6>
                </div>
             </div>
+         </div>
 
-            <div className="col-md-6 col-xl-12">
-               <div className="break p-2 mt-4 mt-md-0 mt-xl-4 mt rounded text-start border shadow">
-                  <h4>Add a Break</h4>
-                  <div className="buttons d-flex justify-content-between">
-                     <button className="btn-break" onClick={() => addBreakTime(10)}>10m</button>
-                     <button className="btn-break" onClick={() => addBreakTime(20)}>20m</button>
-                     <button className="btn-break" onClick={() => addBreakTime(30)}>30m</button>
-                     <button className="btn-break" onClick={() => addBreakTime(40)}>40m</button>
-                     <button className="btn-break" onClick={() => addBreakTime(50)}>50m</button>
-                  </div>
-               </div>
+         <div className="break p-2 mt-4 bg-white rounded text-start border shadow">
+            <h4>Add a Break</h4>
+            <div className="buttons d-flex justify-content-between">
+               <button className="btn-break" onClick={() => addBreakTime(10)}>10m</button>
+               <button className="btn-break" onClick={() => addBreakTime(20)}>20m</button>
+               <button className="btn-break" onClick={() => addBreakTime(30)}>30m</button>
+               <button className="btn-break" onClick={() => addBreakTime(40)}>40m</button>
+               <button className="btn-break" onClick={() => addBreakTime(50)}>50m</button>
             </div>
-
          </div>
 
          <div className="exercise mt-4 p-2 rounded text-start border shadow">
@@ -82,9 +75,9 @@ const ActivitySummery = (props) => {
          </div>
 
          <div className="py-3">
-            <button 
-            onClick={toastMessage}
-            className="btn-completed w-100">
+            <button
+               onClick={toastMessage}
+               className="btn-completed w-100">
                Activity Completed
             </button>
             <ToastContainer />

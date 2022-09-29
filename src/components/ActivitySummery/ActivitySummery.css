@@ -31,3 +31,11 @@ h6{
    font-size: 30px;
    color: #4f41c5;
 }
+
+
+@media(min-width: 1200px){
+   .user-section-container{
+      position: sticky;
+      top: 0px;
+   }
+}

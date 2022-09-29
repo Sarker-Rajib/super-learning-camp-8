@@ -22,14 +22,12 @@ const Activities = () => {
       <div>
          <div className="container pt-2">
             <div className="row">
-               <div className="text-start">
-               <h2 className="pt-3 main-title">Super Learning Camp <span>&#10148;</span></h2>
-               <h4 className="pb-3">Select today's Learning</h4>
-               </div>
-
                <div className="col-xl-9 ps-xl-0">
+                  <div className="text-start">
+                     <h2 className="pt-3 main-title">Super Learning Camp <span>&#10148;</span></h2>
+                     <h4 className="pb-3">Select today's Learning</h4>
+                  </div>
                   <div className="activity-wrapper row gy-3 text-start">
-
                      {
                         activity.map(activities => <ActivitySingle
                            props={activities}
@@ -39,6 +37,7 @@ const Activities = () => {
                      }
                   </div>
                </div>
+
                <div className="col-xl-3 border rounded">
                   <ActivitySummery
                      activityDuration={activityDuration}
