@@ -20,9 +20,14 @@
 }
 
 .btn-break:hover{
-   border: 1px solid rgb(211, 183, 23);
+   border: 1px solid #d3b717;
 }
 
 h6{
    font-size: 24px;
+}
+
+.title{
+   font-size: 30px;
+   color: #4f41c5;
 }

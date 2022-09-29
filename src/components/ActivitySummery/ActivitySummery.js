@@ -13,10 +13,7 @@ const ActivitySummery = (props) => {
    }
 
    const toastMessage = () => {
-      toast(`
-      Congratulations, 
-      You have completed Your Tasks
-      `, {
+      toast(`Congratulations, You have completed Your Tasks. Duration was ${activityDuration} Minutes with ${breaktime} minutes break`, {
          position: "top-center",
       })
    }
@@ -30,7 +27,7 @@ const ActivitySummery = (props) => {
                </div>
 
                <div className="text">
-                  <h4 className="m-0">Rajib Sarker</h4>
+                  <h4 className="m-0 title">Rajib Sarker</h4>
                   <h6>Web Developer</h6>
                   <p className="m-0">Dhaka, Bangladesh</p>
                </div>
