@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ActivitySingle from '../ActivityCart/ActivitySingle';
 import ActivitySummery from '../ActivitySummery/ActivitySummery';
+import './Activities.css'
 
 const Activities = () => {
    const [activity, setActivity] = useState([]);
@@ -22,7 +23,7 @@ const Activities = () => {
          <div className="container pt-2">
             <div className="row">
                <div className="text-start">
-               <h2 className="pt-3 fs-1 text-info">Super Learning Camp <span>&#10148;</span></h2>
+               <h2 className="pt-3 main-title">Super Learning Camp <span>&#10148;</span></h2>
                <h4 className="pb-3">Select today's Learning</h4>
                </div>
 
