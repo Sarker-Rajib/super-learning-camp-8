@@ -18,7 +18,7 @@ const Blog = () => {
                   <p>The key difference between props and state is that state is internal and controlled by the component itself while props are external and controlled by whatever renders the component.</p>
                   <br />
 
-                  <h5>Q. How does React Work ?</h5>
+                  <h5>Q. How does useEffect() do except data fetching ?</h5>
                   <p>useEffect() hook runs the side-effect after initial rendering, and on later renderings only if the name value changes. <br />
                   By using this Hook, you tell React that your component needs to do something after render. React will remember the function you passed (we'll refer to it as our “effect”), and call it later after performing the DOM updates.</p>
                </div>
