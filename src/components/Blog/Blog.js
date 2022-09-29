@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
    return (
-      <div className="blog py-4 bg-light">
+      <div className="blog py-4">
          <div className="container">
             <div className="row">
                <div className="border shadow-lg rounded">
