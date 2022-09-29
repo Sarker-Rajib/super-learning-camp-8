@@ -22,7 +22,7 @@ const Activities = () => {
          <div className="container pt-2">
             <div className="row">
                <div className="text-start">
-               <h2 className="pt-3 fs-1 text-info">Daily Super Learning</h2>
+               <h2 className="pt-3 fs-1 text-info">Super Learning Camp <span>&#10148;</span></h2>
                <h4 className="pb-3">Select today's Learning</h4>
                </div>
 
